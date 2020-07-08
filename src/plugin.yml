@@ -1,0 +1,16 @@
+main: me.cynicalnicole.sleeptracker.SleepTracker
+name: SleepTracker
+version: 0.2.2
+author: CyNicole
+description: Tracks time between a player sleeping in Minecraft days.
+commands:
+    timeawake:
+        description: Reload the configuration file.
+        usage: /timeawake [player]
+permissions:
+    timeawake.self:
+        description: Allows the user to check their days awake.
+        default: true
+    timeawake.others:
+        description: Allows the user to check the days awake of others.
+        default: op
